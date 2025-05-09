@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Your Name</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">YourLogo</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-section">
+            <h2>Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>Feel free to reach out for collaborations or just to say hello!</p>
+                    
+                    <div class="info-item">
+                        <i class="icon">📧</i>
+                        <span>your.email@example.com</span>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="icon">📱</i>
+                        <span>+1 (123) 456-7890</span>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="icon">📍</i>
+                        <span>Your City, Country</span>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-icon">LinkedIn</a>
+                        <a href="#" class="social-icon">Dribbble</a>
+                        <a href="#" class="social-icon">Behance</a>
+                        <a href="#" class="social-icon">Instagram</a>
+                    </div>
+                </div>
+                
+                <form class="contact-form" netlify>
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
